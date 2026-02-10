@@ -23,7 +23,6 @@ contract RealEstateToken is ERC1155, Ownable {
         string metadataURI;     // URI de metadata en IPFS
         bool exists;
     }
-    checar que si baja mucho el token que no puedan vender los usuarios
 
     uint256 public nextPropertyId;
     mapping(uint256 => Property) public properties;
